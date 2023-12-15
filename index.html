@@ -32,7 +32,7 @@ body {width:100vw;height:100vh;background-size: cover;}
 <div class="bg">
 <span class="cover"></span>
 </div>
-<iframe src="https://browser.360.cn:443/newpages.html" id="iframe"></iframe>
+<iframe src="https://ghostly.shenmedouyou.top" id="iframe"></iframe>
 <script>
 var mid;var sid;function GetSID(){if(sid){return sid};sid=external.GetSID(window);return sid};function GetMID(){if(mid){return mid};mid=GetSID()&&external.GetMID(sid);return mid};function sendGif(filename,data,callback){let params="";for(const k in data){params+=k+"="+data[k]+"&"};const IMG=new Image();IMG.onload=function(){callback&&callback();IMG.onload=null};IMG.onerror=function(){callback&&callback();IMG.onerror=null};IMG.src="https://dd.browser.360.cn/static/a/"+filename+"?"+params+"mid="+GetMID()+"&"+Date.now()+Math.random().toString().replace("0.","").substr(0,10)};const _$=function(id){if(id.indexOf(".")>-1){return document.querySelector(id)}else if(id.indexOf("#")>-1){id=id.substr(1);return document.getElementById(id)}else{return document.getElementsByTagName(id)[0]}};function postMessage(settings){var $iframe=_$("#iframe");$iframe&&$iframe.contentWindow.postMessage(settings,"*")};
 </script>
