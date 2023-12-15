@@ -1,27 +1,14 @@
-<title>视频播放器 - DPlayer</title>
-<link href="DPlayer.min.css" rel="stylesheet">
-<script src="hls.min.js"></script>
-<script src="DPlayer.min.js"></script>
-<style type="text/css">
-    body,html{width:100%;height:100%;background:#000;padding:0;margin:0;overflow-x:hidden;overflow-y:hidden}
-    *{margin:0;border:0;padding:0;text-decoration:none}
-    #stats{position:fixed;top:5px;left:10px;font-size:12px;color:#fdfdfd;z-index:2147483647;text-shadow:1px 1px 1px #000, 1px 1px 1px #000}
-    #dplayer{position:inherit}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body,iframe{
+		padding:0;
+		margin:0;
+	}	
 </style>
-<body oncontextmenu="self.event.returnValue=false">
-<div id="dplayer"></div>
-<script type="text/javascript">
-const dp = new DPlayer({
-container: document.getElementById('dplayer'),
-volume: 1,video: {quality: [
-{name: 'hls默认',url: 'sy/index1.m3u8',type: 'hls',},
-{name: 'hls备用',url: '//download.kstore.space/download/4326/sy/index1.m3u8',type: 'hls',},
-{name: 'mp4兼容',url: 'sy/index2.mp4',type: 'mp4',},
-{name: 'mp4备用',url: '//download.kstore.space/download/4326/sy/index2.mp4',type: 'mp4',},
-],defaultQuality: 0,},
-contextmenu: [
-{text: '前往哔哩哔哩观看',link: '//b23.tv/BV1BL411Y7iV',},
-{text: '保存视频（mp4兼容）',link: 'sy/index2.mp4',},
-{text: '保存视频（mp4备用）',link: '//download.kstore.space/download/4326/sy/index2.mp4',},
-],});
-</script>
+</head>
+<body>
+<iframe src="https://xiaoyonggaoya.pages.dev/luofuzazu" align="middle" frameborder="0" width="100%" height="100%" ></iframe>
+</body>
+</html>
