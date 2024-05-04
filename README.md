@@ -1,5 +1,5 @@
 # xiaoyonggaoya's github file store
-![1712853370197.png](1712853370197.png)  
+![qmdtext.jpg](qmdtext.jpg)  
   通过 cloudflare pages 和各个公开 github 反代工具实现中国大陆地区访问
 ## 使用的服务
 https://xygyfile.pages.dev/  
